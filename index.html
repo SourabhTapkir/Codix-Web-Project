@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Bootstrap -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <img src="Soul Logo.jpg" alt="logo">
+            <a href="#home" id="navbar__logo">SOUL GAMING</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#Games" class="navbar__links" id="Games-page">Games</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#About-Me" class="navbar__links" id="About-Me-page">About Me</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#Membership" class="button" id="Membership">Membership</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero section-->
+    <div class="home" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">GAMING-ENTERTAINING-ENJOYMENT</h1>
+            <p class="hero__description"></span>SOUL GAMING</span></p>
+            <button class="main__btn"><a href="#">Like</a></button>
+            <button class="main__btn"><a href="#">Share</a></button>
+            <button class="main__btn"><a href="#">Subcribe</a></button>
+        </div>
+    </div>
+
+    <!--Games Section-->
+    <div class="Games" id="Games">
+        <h1>My Games</h1>
+        <div class="games__wrapper">
+            <div class="games__card">
+                <img src="PUBG.jpeg">
+                <h2>PlayerUnkowns's Battleground (PUBG)</h2>
+                <p>PUBG Mobile tips & tricks to win Battle</p>
+                <div class="Games__btn"><button>Want to learn</button></div>
+
+            </div>
+            <div class="games__card">|
+                <img src="COC.jpeg"> 
+                <h2 >Clash of Clans(COC)</h2>
+                <p>Tips to destroy higher bases</p>
+                <div class="Games__btn"><button>Want to learn</button></div>
+            </div>
+            <div class="games__card">
+                <img src="CR.jpeg">
+                <h2>Clash Royale(CR)</h2>
+                <p>Tips for winning battles and for max Army</p>
+                <div class="Games__btn"><button>Want to learn</button></div>
+            </div>
+            <div class="games__card">
+                <img src="call-of-duty-mobile-poster-4010.jpg">
+                <h2>Call of Duty (COD)</h2>
+                <p>Tips to became pro in COD</p>
+                <div class="Games__btn"><button>Want to learn</button></div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--About Me Section-->
+    <div class="About-Me" id="About-Me">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-headset"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>What I do?</h1>
+                <h2>I help to grow your Gameplay</h2>
+                <p>Contact me for Gameplay Tips</p>
+                <button class="main__btn"><a href="#">Contact Me</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!--Feature Section-->
+
+    <div class="main" id="Membership">
+        <div class="main__container">
+
+            <div class="main__content">
+                <h1>Join Me</h1>
+                <h2>Join This channel</h2>
+                <p>Get access to membership perks</p>
+                <button class="main__btn" data-toggle="modal" data-target="#exampleModalCenter"><a
+                        href="#modal">Membership
+                    </a></button>
+            </div>
+
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2"><i class="fas fa-gamepad"></i></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Thank you,For becoming a Member.
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Membership</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="myForm">
+                        <div class="form-group">
+                            <label class="col-form-label">Name:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Card Number:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Mobile:</label>
+                            <input type="text" class="form-control" id="mobile">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="submit">Buy Membership</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About me</h2>
+                    <a href="Membership">How I work</a>
+                    <a href="Membership">Practice Games</a>
+                    <a href="Membership">Join team</a>
+                    <a href="Membership">Terms of Service</a>
+                </div>
+
+                <div class="footer__link--items">
+                    <h2>Contact me</h2>
+                    <a href="/Membership">Mobile</a>
+                    <a href="/Membership">Email</a>
+
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">SOUL GAMING</a>
+                </div>
+                <p class="website__rights">© SOUL 2021. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="https://www.linkedin.com/in/sourabh-tapkir-456480210" target="_blank"
+                        class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/sourabh_tapkir_42?utm_medium=copy_link" class="social__icon--link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/channel/UCRBCiJPogdgDFuWNGF5KS3w" class="social__icon--link"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
